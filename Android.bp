@@ -123,7 +123,6 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-	overrides: ["Contacts"],
 }
 
 android_app_import {
@@ -136,7 +135,6 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-	overrides: ["Messaging"],
 }
 
 android_app_import {
