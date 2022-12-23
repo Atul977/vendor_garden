@@ -115,19 +115,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "Dialer",
-	owner: "ricedroid",
-	apk: "proprietary/priv-app/Dialer/Dialer.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["Dialer"],
-}
-
-android_app_import {
 	name: "Contacts",
 	owner: "ricedroid",
 	apk: "proprietary/priv-app/Contacts/Contacts.apk",
