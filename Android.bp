@@ -159,5 +159,4 @@ android_app_import {
         },
         privileged: true,
         product_specific: true,
-        overrides: ["Gallery2","GalleryNew3D","Gallery3D"],
 }
