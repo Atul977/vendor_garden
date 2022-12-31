@@ -138,9 +138,8 @@ android_app_import {
 }
 
 android_app_import {
-	name: "Via",
-	owner: "via",
-	apk: "proprietary/priv-app/Via/Via.apk",
+	name: "ViaBrowser",
+	apk: "proprietary/priv-app/ViaBrowser/ViaBrowser.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
