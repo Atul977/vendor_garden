@@ -53,5 +53,5 @@ PRODUCT_PACKAGES += \
     Dialer \
     Contacts \
     Messaging \
-    Via \
+    ViaBrowser \
     Vin
