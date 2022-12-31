@@ -140,6 +140,7 @@ android_app_import {
 android_app_import {
 	name: "ViaBrowser",
 	apk: "proprietary/priv-app/ViaBrowser/ViaBrowser.apk",
+        presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
