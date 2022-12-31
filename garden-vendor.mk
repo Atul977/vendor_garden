@@ -54,4 +54,4 @@ PRODUCT_PACKAGES += \
     Contacts \
     Messaging \
     Via \
-    Gallery 
+    Vin
