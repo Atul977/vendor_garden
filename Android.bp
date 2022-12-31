@@ -151,8 +151,8 @@ android_app_import {
 }
 
 android_app_import {
-        name: "Gallery",
-        apk: "proprietary/priv-app/Gallery/Gallery.apk",
+        name: "Vin",
+        apk: "proprietary/priv-app/Vin/Vin.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,
