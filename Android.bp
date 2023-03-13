@@ -5,28 +5,6 @@
 soong_namespace {
 }
 
-android_app_import {
-	name: "EngineerMode",
-	owner: "xiaomi",
-	apk: "proprietary/priv-app/EngineerMode/EngineerMode.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "ImsService",
-	owner: "xiaomi",
-	apk: "proprietary/priv-app/ImsService/ImsService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
 dex_import {
 	name: "mediatek-common",
 	owner: "xiaomi",
@@ -75,76 +53,3 @@ dex_import {
 	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
 }
 
-android_app_import {
-	name: "GBoard",
-	owner: "google",
-	apk: "proprietary/priv-app/GBoard/GBoard.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["LatinIME"],
-}
-
-android_app_import {
-	name: "Graphene",
-	owner: "grapheneos",
-	apk: "proprietary/priv-app/Graphene/Graphene.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["Camera2","GcamGo","Snap"],
-}
-
-android_app_import {
-	name: "Dialer",
-	owner: "ricedroid",
-	apk: "proprietary/priv-app/Dialer/Dialer.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "Contacts",
-	owner: "ricedroid",
-	apk: "proprietary/priv-app/Contacts/Contacts.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "Messaging",
-	owner: "ricedroid",
-	apk: "proprietary/priv-app/Messaging/Messaging.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "ViaBrowser",
-	apk: "proprietary/priv-app/ViaBrowser/ViaBrowser.apk",
-        presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["Browser2","DuckDuckGo","Jelly"],
-}
